@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx tsc",
     "start": "node prod/index.js",
-    "test": "npx jest"
+    "test": "npx jest",
+    "dev": "npx tsc-watch --onSuccess 'npm start'"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
     "@types/node": "^13.9.8",
     "eslint": "^6.8.0",
     "prettier": "^2.0.2",
+    "tsc-watch": "^4.2.3",
     "typescript": "^3.8.3"
   },
   "dependencies": {
