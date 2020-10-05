@@ -1,1 +1,1 @@
-import 'module-alias/register';
+import 'tsconfig-paths/register';
