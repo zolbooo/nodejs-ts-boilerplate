@@ -4,3 +4,6 @@ prod/
 .vscode/
 
 .env
+
+src/graphql.ts
+graphql.schema.json
